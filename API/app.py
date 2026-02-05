@@ -27,7 +27,7 @@ def get_lotr_warriors():
 
 @app.get("/starwarsWarriors")
 def get_starwars_warriors():
-    rows = ['Luke', 'Leia', 'Han', 'Chewbacca', 'C-3PO', 'R2-D2']
+    rows = ['Luke', 'Leia', 'Han', 'Chewbacca', 'C-3PO', 'R2-D2', 'Dart Vader']
     return rows
 
 @app.get("/warriorsGOT")
